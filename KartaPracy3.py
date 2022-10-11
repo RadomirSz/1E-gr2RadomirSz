@@ -36,4 +36,8 @@
 #pętla liczb dwucyfrowych malejąco (step ujemny)
 #for i in range(99,9,-1): print (i, end=" ")
 #pętla liczb 3-cyfrowych podzielnych przez 20
-for i in range(100,981,20): print (i, end=" ")
+# for i in range(100,981,20): print (i, end=" ")
+#zad2
+for i in range(105,999,15): print(i, end=" ")
+
+#zad3
