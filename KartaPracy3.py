@@ -38,6 +38,10 @@
 #pętla liczb 3-cyfrowych podzielnych przez 20
 # for i in range(100,981,20): print (i, end=" ")
 #zad2
-for i in range(105,999,15): print(i, end=" ")
+#for i in range(105,999,15): print(i, end=" ")
 
 #zad3
+a = int(input())
+for i in range(1,a+1):
+ if (a % i == 0) :
+   print(i)
