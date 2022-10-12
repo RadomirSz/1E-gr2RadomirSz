@@ -64,11 +64,15 @@
 # print("nie podałeś:",suma)
 
 # zad6
-# n=int(input())
-# a = 1
-# b = 1
-# print (a, end=" ")
-# print (b, end=" ")
-# for i in range (n-1):
-#   a, b = b , a+b
-#   print(b, end=" ")
+#  int n = int.Parse(Console.Readline());
+# int a = 1;
+# int b = 1;
+# int temp;
+# Console.Writeline($"{a} {b}")
+# for (int i = 0; i < n - 1; i++)
+# { 
+# temp= a;
+#     a = b;
+#     b = temp + b;
+#     Console.WriteLine(b+" ")
+# } 
